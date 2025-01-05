@@ -8,7 +8,7 @@ function About() {
   <p>
     I’m a passionate Full Stack Developer with over 2.6 years of experience crafting high-performance web applications.
     I specialize in building seamless, scalable, and efficient solutions using technologies such as 
-    <span class="highlight"> React.js, Redux, Laravel, MySQL, and JavaScript</span>.
+    <span class="highlight"> React.js, Redux, Laravel,Spring boot, Java,MySQL,and JavaScript</span>.
   </p>
   <p>
     I thrive on solving complex challenges, whether designing intuitive front-end interfaces or architecting robust back-end systems. 
