@@ -1,0 +1,127 @@
+/* Contact Section */
+.contact-section {
+    padding: 100px 20px;
+    background-color: #1e88e5; /* Blue background */
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Heading */
+  .contact-heading {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  /* Text */
+  .contact-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #e3f2fd; /* Slightly lighter text */
+  }
+  
+  /* Contact List */
+  .contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .contact-item {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .contact-link {
+    color: #ffcc80; /* Highlighted link color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .contact-link:hover {
+    color: #ffab40; /* Darker orange on hover */
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .contact-heading {
+      font-size: 28px;
+    }
+  
+    .contact-text, .contact-item {
+      font-size: 16px;
+    }
+  }
+  
+  .contact-heading {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .contact-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  
+  .contact-item {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .contact-link {
+    color: #ffcc80;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .contact-link:hover {
+    color: #ffab40;
+  }
+  
+  /* Contact Form */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-input, .form-textarea {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .form-textarea {
+    height: 100px;
+    resize: none;
+  }
+  
+  .form-button {
+    background-color: #ffcc80;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-button:hover {
+    background-color: #ffab40;
+  }
+  

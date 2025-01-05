@@ -1,0 +1,127 @@
+/* Projects Section */
+.projects-section {
+    padding: 100px 20px;
+    background-color: #f9f9f9; /* Light background */
+    text-align: center;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Heading */
+  .projects-heading {
+    font-size: 36px;
+    color: #1e88e5; /* Blue color for heading */
+    margin-bottom: 40px;
+    font-weight: bold;
+  }
+  
+  /* Projects List */
+  .projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Project Card */
+  .project-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px; /* Fixed card width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Project Title */
+  .project-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Project Description */
+  .project-description {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  /* Project Technologies */
+  .project-technologies {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  /* Project Link */
+  .project-link {
+    display: inline-block;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .project-link:hover {
+    background-color: #1565c0; /* Darker blue on hover */
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .projects-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .project-card {
+      width: 90%; /* Full width for smaller screens */
+    }
+  }
+  .projects-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .project {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .project p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .project a {
+    color: #1e88e5;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-block;
+  }
+  
+  .project:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
